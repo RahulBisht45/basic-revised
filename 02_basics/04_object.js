@@ -29,6 +29,7 @@ const obj2={3:"a",4:"b"}
 //const obj3=Object.assign({},obj1,obj2)
 
 const obj3={...obj1,...obj2}
+/*
 console.log(obj3);
 
 console.log(instaUser);
@@ -39,3 +40,29 @@ console.log(Object.entries(instaUser));
 
 
 console.log(instaUser.hasOwnProperty('isLoggedIn'));
+*/
+
+
+//destructing object
+
+const course={
+    courseName:"web dev",
+    price:"free",
+    plateform:"youtube"
+}
+
+const {courseName:name}=course
+//console.log(courseName);
+console.log(name);
+/*
+//eg.
+//const navbar=(props.company)=>{
+const navbar=({company})=>{
+
+}
+
+navbar(company="rahul")
+
+*/
+
+
