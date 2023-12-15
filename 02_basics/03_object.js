@@ -26,7 +26,7 @@ console.log(JsUser[sym]);
 
 JsUser.name="Rahul";
 //Object.freeze(JsUser);
-JsUser.name="roshn";
+//JsUser.name="roshn";
 //console.log(JsUser);
 
 JsUser.greeting=function(){
